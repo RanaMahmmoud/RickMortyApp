@@ -117,10 +117,13 @@ The goal of this project is to design and develop an iOS application using **Swi
 2. **Build and Run**:  
    Open the project in Xcode and run it on an iOS Simulator or a physical device running **iOS 17** or later.
    
+---   
 ## **Unit Test**  
 
-**CharactersDataServiceTests**: 
--Add a test method to verify that the view model correctly fetches characters when the service returns data.
+**CharactersDataServiceTests**:
+
+ Add a test method to verify that the view model correctly fetches characters when the service returns data.   
+
 ---
 
 ## **Conclusion**  
