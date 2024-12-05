@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4068DA02D024C7900BBA913 /* MockNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4068D9F2D024C7900BBA913 /* MockNetworkingManager.swift */; };
 		C4A280D42D004D5D0067EBD6 /* RickMortyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280D32D004D5D0067EBD6 /* RickMortyAppApp.swift */; };
 		C4A280D82D004D5F0067EBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A280D72D004D5F0067EBD6 /* Assets.xcassets */; };
 		C4A280DB2D004D5F0067EBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A280DA2D004D5F0067EBD6 /* Preview Assets.xcassets */; };
-		C4A280E52D004D5F0067EBD6 /* RickMortyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280E42D004D5F0067EBD6 /* RickMortyAppTests.swift */; };
+		C4A280E52D004D5F0067EBD6 /* CharactersDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280E42D004D5F0067EBD6 /* CharactersDataServiceTests.swift */; };
 		C4A280EF2D004D5F0067EBD6 /* RickMortyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280EE2D004D5F0067EBD6 /* RickMortyAppUITests.swift */; };
 		C4A280F12D004D5F0067EBD6 /* RickMortyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280F02D004D5F0067EBD6 /* RickMortyAppUITestsLaunchTests.swift */; };
 		C4A280FF2D004D9F0067EBD6 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280FE2D004D9F0067EBD6 /* NetworkingManager.swift */; };
@@ -54,12 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4068D9F2D024C7900BBA913 /* MockNetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkingManager.swift; sourceTree = "<group>"; };
 		C4A280D02D004D5D0067EBD6 /* RickMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A280D32D004D5D0067EBD6 /* RickMortyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppApp.swift; sourceTree = "<group>"; };
 		C4A280D72D004D5F0067EBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A280DA2D004D5F0067EBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4A280E02D004D5F0067EBD6 /* RickMortyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMortyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4A280E42D004D5F0067EBD6 /* RickMortyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppTests.swift; sourceTree = "<group>"; };
+		C4A280E42D004D5F0067EBD6 /* CharactersDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDataServiceTests.swift; sourceTree = "<group>"; };
 		C4A280EA2D004D5F0067EBD6 /* RickMortyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMortyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A280EE2D004D5F0067EBD6 /* RickMortyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppUITests.swift; sourceTree = "<group>"; };
 		C4A280F02D004D5F0067EBD6 /* RickMortyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -160,7 +162,8 @@
 		C4A280E32D004D5F0067EBD6 /* RickMortyAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C4A280E42D004D5F0067EBD6 /* RickMortyAppTests.swift */,
+				C4A280E42D004D5F0067EBD6 /* CharactersDataServiceTests.swift */,
+				C4068D9F2D024C7900BBA913 /* MockNetworkingManager.swift */,
 			);
 			path = RickMortyAppTests;
 			sourceTree = "<group>";
@@ -466,7 +469,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A280E52D004D5F0067EBD6 /* RickMortyAppTests.swift in Sources */,
+				C4A280E52D004D5F0067EBD6 /* CharactersDataServiceTests.swift in Sources */,
+				C4068DA02D024C7900BBA913 /* MockNetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
