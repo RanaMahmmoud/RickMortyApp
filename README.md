@@ -124,8 +124,15 @@ The goal of this project is to design and develop an iOS application using **Swi
 
  Add a test method to verify that the view model correctly fetches characters when the service returns data.   
 
----
+---  
+## **Screenshots**  
 
+<img width="368" alt="Screenshot 2024-12-06 at 3 57 02 PM" src="https://github.com/user-attachments/assets/18f7bac5-2596-4c0d-9058-28599aa00013">
+
+<img width="370" alt="Screenshot 2024-12-06 at 3 57 26 PM" src="https://github.com/user-attachments/assets/b1d4e8b8-f308-46e9-9b96-08c3cc915f5d">
+
+
+---
 ## **Conclusion**  
 
 This project demonstrates a professional approach to iOS development using **Swift**, blending **UIKit** and **SwiftUI** effectively. The clean architecture, pagination, and filtering capabilities reflect best practices in app design and implementation.  
