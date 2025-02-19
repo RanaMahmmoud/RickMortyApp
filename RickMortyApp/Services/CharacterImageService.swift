@@ -9,7 +9,13 @@ import UIKit
 import Combine
 
 class CharacterImageService {
-    private var cancellables = Set<AnyCancellable>()
+    private var cancellables : Set<AnyCancellable>
+    private let networkService:NetworkingServiceProtocol
+    
+    init(cancellables: Set<AnyCancellable> = Set<AnyCancellable>(), networkService: NetworkingServiceProtocol = NetworkingManager()) {
+        self.cancellables = cancellables
+        self.networkService = networkService
+    }
     
     func fetchImage(from urlString: String, completion: @escaping (Result<UIImage, Error>) -> Void) {
         guard let url = URL(string: urlString) else {
@@ -24,11 +30,7 @@ class CharacterImageService {
             return
         }
         
-        // Download the image
-        URLSession.shared.dataTaskPublisher(for: url)
-            .tryMap { output -> Data in
-                try NetworkingManager.handleURLResponse(output: output, url: url)
-            }
+        networkService.download(url: url)
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completionStatus in
                 NetworkingManager.handleCompletion(completion: completionStatus)
@@ -44,6 +46,7 @@ class CharacterImageService {
                 }
             })
             .store(in: &cancellables)
+       
     }
     
     private func cacheImage(data: Data, for url: URL) {

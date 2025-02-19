@@ -18,5 +18,10 @@ let getCharactersDetailsURL = "\(baseURL)character/"
 let getFilteredCharacters = "\(getCharactersDetailsURL)?status="
 
 // MARK: -Page's Names
-let CHARACTER = "Characters"
+let Characters = "Characters"
 
+enum URLConstant {
+   static let getCharactersURL = "\(baseURL)character/?count=\(pageSize)&page="
+   static let getCharactersDetailsURL = "\(baseURL)character/?count=\(pageSize)&page="
+   static let getFilteredCharacters = "\(baseURL)character/?count=\(pageSize)&page="
+}

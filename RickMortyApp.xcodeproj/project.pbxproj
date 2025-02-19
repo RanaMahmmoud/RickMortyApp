@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C4068DA02D024C7900BBA913 /* MockNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4068D9F2D024C7900BBA913 /* MockNetworkingManager.swift */; };
+		C41FC7822D652E5100825897 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FC7812D652E5100825897 /* APIConfiguration.swift */; };
+		C41FC7842D65316C00825897 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FC7832D65316C00825897 /* APIEndpoint.swift */; };
 		C4A280D42D004D5D0067EBD6 /* RickMortyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A280D32D004D5D0067EBD6 /* RickMortyAppApp.swift */; };
 		C4A280D82D004D5F0067EBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A280D72D004D5F0067EBD6 /* Assets.xcassets */; };
 		C4A280DB2D004D5F0067EBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A280DA2D004D5F0067EBD6 /* Preview Assets.xcassets */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		C4068D9F2D024C7900BBA913 /* MockNetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkingManager.swift; sourceTree = "<group>"; };
+		C41FC7812D652E5100825897 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		C41FC7832D65316C00825897 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 		C4A280D02D004D5D0067EBD6 /* RickMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A280D32D004D5D0067EBD6 /* RickMortyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppApp.swift; sourceTree = "<group>"; };
 		C4A280D72D004D5F0067EBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 			children = (
 				C4A281062D004ED20067EBD6 /* CharactersDataService.swift */,
 				C4A2813C2D00B7B60067EBD6 /* CharacterImageService.swift */,
+				C41FC7812D652E5100825897 /* APIConfiguration.swift */,
+				C41FC7832D65316C00825897 /* APIEndpoint.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -442,10 +448,12 @@
 			files = (
 				C4A281112D004FE70067EBD6 /* CharacterImageView.swift in Sources */,
 				C4A280FF2D004D9F0067EBD6 /* NetworkingManager.swift in Sources */,
+				C41FC7822D652E5100825897 /* APIConfiguration.swift in Sources */,
 				C4A281312D0059CD0067EBD6 /* PageInfoModel.swift in Sources */,
 				C4A281022D004E060067EBD6 /* Color.swift in Sources */,
 				C4A281372D009B280067EBD6 /* HomeView.swift in Sources */,
 				C4A281392D009B370067EBD6 /* CharacterDetailView.swift in Sources */,
+				C41FC7842D65316C00825897 /* APIEndpoint.swift in Sources */,
 				C4A2811D2D0051E90067EBD6 /* LaunchView.swift in Sources */,
 				C4A281072D004ED20067EBD6 /* CharactersDataService.swift in Sources */,
 				C4A280D42D004D5D0067EBD6 /* RickMortyAppApp.swift in Sources */,

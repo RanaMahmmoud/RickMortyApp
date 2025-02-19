@@ -15,7 +15,7 @@ struct HomeView: View {
 
             VStack(alignment: .leading) {
                 
-                Text(CHARACTER)
+                Text(Characters)
                     .font(.largeTitle)
                     .bold()
                     .padding()
